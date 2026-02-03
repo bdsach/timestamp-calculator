@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function App() {
+export default function NewTimeStamp() {
   const [currentTimestamp, setCurrentTimestamp] = useState(
     Math.floor(Date.now() / 1000)
   );
