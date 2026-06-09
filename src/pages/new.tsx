@@ -21,8 +21,8 @@ export default function NewTimeStamp() {
   );
 
   const [years, setYears] = useState(0);
-  const [months, setMonths] = useState(0);
-  const [days, setDays] = useState(0);
+  const [months, setMonths] = useState(1);
+  const [days, setDays] = useState(1);
 
   const [result, setResult] = useState<{
     date: string;
